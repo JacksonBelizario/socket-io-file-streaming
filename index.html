@@ -41,15 +41,6 @@
           listarArquivos() {
               this.socket.emit('LIST_FILES');
           },
-          sendMessage(e) {
-              e.preventDefault();
-              
-              this.socket.emit('SEND_MESSAGE', {
-                  user: this.user,
-                  message: this.message
-              });
-              this.message = ''
-          },
           baixarArquivo(name) {
               this.socket.emit('REQUEST_DOWNLOAD', name);
           },
@@ -70,9 +61,6 @@
           }())
         },
         mounted() {
-          this.socket.on('MESSAGE', (data) => {
-            this.messages = [...this.messages, data];
-          });
           this.socket.on('FILES', (data) => {
             this.files = data;
           });

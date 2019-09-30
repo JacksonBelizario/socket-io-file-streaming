@@ -11,9 +11,6 @@ app.get('/', function(req, res){
 const arquivos = __dirname + '/arquivos/';
 
 io.on('connection', function(socket){
-  socket.on('SEND_MESSAGE', function(msg) {
-    io.emit('MESSAGE', msg);
-  });
 
   socket.on('LIST_FILES', function() {
     fs.readdir(arquivos, (err, files) => {
