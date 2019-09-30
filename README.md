@@ -21,4 +21,4 @@ yarn start ou npm run start
 ## Acesse o cliente
 http://localhost:3000/
 
-[![Login Page](https://raw.githubusercontent.com/JacksonBelizario/socket-io-file-streaming/master/docs/client.png)](https://raw.githubusercontent.com/JacksonBelizario/socket-io-file-streaming/master/pics/client.png)
+[![Cliente](https://raw.githubusercontent.com/JacksonBelizario/socket-io-file-streaming/master/pics/client.png)](https://raw.githubusercontent.com/JacksonBelizario/socket-io-file-streaming/master/pics/client.png)
