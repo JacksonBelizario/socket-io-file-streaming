@@ -5,4 +5,17 @@ Este projeto foi realizado para a matéria de Redes de Computadores
 Aluno: Jackson Luiz Feliciano Belizário
 Prof: Alcione Ferreira
 
-Para executar o projeto
+
+## Instale as dependências
+```
+cd socket-io-file-streaming
+yarn install ou npm install
+```
+
+## Inicie o servidor
+```
+yarn start ou npm run start
+```
+
+## Acesse o cliente
+http://localhost:3000/
